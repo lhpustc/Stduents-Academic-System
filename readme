@@ -1,0 +1,13 @@
+stored procedures:
+course_details;
+current_course;
+present_available_courses;
+enroll;
+withdraw;
+
+functions:
+get_quarter --get current quarter from MySQL clock system;
+before_quarter --get the quarter before the current quarter;
+hasnottaken --return true if the student has not taken this course
+satisfyPrereq --return true if the student satisfies the course requirment
+
